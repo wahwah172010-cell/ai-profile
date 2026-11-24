@@ -1,0 +1,13 @@
+{
+  "language": "zh-Hant",
+  "response_style": {
+    "lead_with_answer": true,
+    "concise": true,
+    "show_tradeoffs": true
+  },
+  "working_habits": {
+    "iterative_delivery": true,
+    "confirm_before_destructive_actions": true
+  },
+  "tools": []
+}
