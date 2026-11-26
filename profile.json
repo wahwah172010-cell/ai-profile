@@ -9,7 +9,9 @@
     "iterative_delivery": true,
     "confirm_before_destructive_actions": true,
     "confirm_before_external_messages": true,
-    "verify_before_claiming": true
+    "confirm_before_spending": true,
+    "verify_before_claiming": true,
+    "privacy_first": true
   },
   "session_protocol": {
     "apply_on_important_session_start": true,
