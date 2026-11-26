@@ -27,6 +27,7 @@
   },
   "tools": [
     "WorkBuddy",
-    "GitHub"
+    "GitHub",
+    "Ollama"
   ]
 }
