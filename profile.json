@@ -7,7 +7,24 @@
   },
   "working_habits": {
     "iterative_delivery": true,
-    "confirm_before_destructive_actions": true
+    "confirm_before_destructive_actions": true,
+    "confirm_before_external_messages": true,
+    "verify_before_claiming": true
   },
-  "tools": []
+  "session_protocol": {
+    "apply_on_important_session_start": true,
+    "source": "github:wahwah172010-cell/ai-profile@main",
+    "read_order": [
+      "communication-style.md",
+      "workflows-and-habits.md",
+      "identity-and-values.md",
+      "profile.json"
+    ],
+    "sync_back_on_habit_change": true,
+    "local_mirrors_are_cache": true
+  },
+  "tools": [
+    "WorkBuddy",
+    "GitHub"
+  ]
 }
