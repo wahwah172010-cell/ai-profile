@@ -1,5 +1,15 @@
 # Workflows and Habits
 
+## Session Startup Protocol (mandatory for important work)
+1. Before substantive work, fetch this repo from `main`.
+2. Apply in order: `communication-style.md` → `workflows-and-habits.md` → `identity-and-values.md` → `profile.json`.
+3. Local mirrors are cache only; this repo wins on conflict.
+
+## Sync-back Protocol
+- Trigger: a new or confirmed method, habit, tool, or boundary.
+- Action: update the matching file here in the same session; read remote first, keep existing content, commit with a clear message.
+- Do not record unverified guesses as preferences; mark them as unconfirmed.
+
 - **Work Style:** Prefer iterative, modular execution—start with a working MVP or clear outline before polishing edge cases.
-- **Preferred Tools & Stack:** [填入你常用的語言、框架、編輯器、筆記工具或專案管理習慣]
-- **Habit Notes:** [填入你的作息、專注時段、審查習慣，例如：修改既有檔案前先說明影響範圍]
+- **Preferred Tools & Stack:** Confirmed so far: WorkBuddy (AI collaboration / automation), GitHub (this profile repo). Language/framework preferences and note-taking tools are not yet specified.
+- **Habit Notes:** Lead with the answer, then structured details; surface trade-offs, costs, and risks for major decisions; verify uncertain facts instead of guessing; ask for explicit confirmation before destructive actions, production config changes, external messages, or spending; privacy is a hard boundary. Routine/focus hours are not yet specified.
