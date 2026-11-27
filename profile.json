@@ -1,9 +1,20 @@
 {
   "language": "zh-Hant",
+  "languages": [
+    "zh-Hant",
+    "zh-Hans"
+  ],
+  "timezone": "GMT+8",
   "response_style": {
     "lead_with_answer": true,
     "concise": true,
-    "show_tradeoffs": true
+    "show_tradeoffs": true,
+    "direct_and_efficient": true
+  },
+  "finance": {
+    "stock_price_up_color": "red",
+    "stock_price_down_color": "green",
+    "default_currency": "CNY"
   },
   "working_habits": {
     "iterative_delivery": true,
@@ -11,7 +22,18 @@
     "confirm_before_external_messages": true,
     "confirm_before_spending": true,
     "verify_before_claiming": true,
-    "privacy_first": true
+    "privacy_first": true,
+    "use_absolute_paths": true,
+    "append_dont_delete_memory_files": true
+  },
+  "coding_conventions": {
+    "ascii_straight_quotes_in_code": true,
+    "no_recursive_force_delete": true,
+    "python_venv_only_no_global_install": true,
+    "node_workspace_only_no_global_install": true,
+    "git_new_commit_not_amend": true,
+    "git_no_skip_hooks": true,
+    "git_no_force_push_without_confirmation": true
   },
   "session_protocol": {
     "apply_on_important_session_start": true,
@@ -20,14 +42,45 @@
       "communication-style.md",
       "workflows-and-habits.md",
       "identity-and-values.md",
-      "profile.json"
+      "profile.json",
+      "obsidian-context.md"
     ],
     "sync_back_on_habit_change": true,
     "local_mirrors_are_cache": true
   },
+  "obsidian_vault": {
+    "path": "I:\\My Drive\\Work\\",
+    "entry_files": [
+      "MEMORY.md",
+      "AGENTS.md",
+      "AI-AGENT-INDEX.md",
+      "01-Preferences/Preferences.md",
+      "01-Preferences/Coding-Conventions.md",
+      "01-Preferences/Tooling-Preferences.md",
+      "02-Planning/Long-Term-Plan.md",
+      "03-Decisions/Decision-Log.md"
+    ],
+    "deprecated_paths": [
+      "F:\\Obsidian\\work\\",
+      "I:\\我的雲端硬碟\\work\\"
+    ],
+    "consolidation_cadence": [
+      "01:30",
+      "11:30",
+      "16:40"
+    ],
+    "generated_context_file": "obsidian-context.md"
+  },
   "tools": [
     "WorkBuddy",
     "GitHub",
-    "Ollama"
+    "Ollama",
+    "Obsidian",
+    "Codex",
+    "Git Bash",
+    "PowerShell",
+    "Python",
+    "Node.js",
+    "Google Drive"
   ]
 }
